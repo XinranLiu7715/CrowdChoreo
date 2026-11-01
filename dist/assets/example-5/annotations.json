@@ -1,0 +1,197 @@
+{
+  "batch": "motion_group_v3",
+  "segment_id": "pAA0smGKCwM_shot15__part001",
+  "source_rgb": "GroupData/TextD2MMD/outputs/crowdchoreo_description/runs/motion_group_v3/pAA0smGKCwM_shot15__part001/media/rgb_original_window.mp4",
+  "frame_range_exclusive": [
+    163,
+    343
+  ],
+  "fps": 30.0,
+  "skeleton_source": "dataset/CrowdChoreo/final_theta030/rotfix/motion_group_v3/pAA0smGKCwM_shot15__part001",
+  "text_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/v82_fastspin_fix_20261016_run/selection/descriptions_person.jsonl",
+  "formation_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/formation_timeline_20261016/formation_timeline.jsonl",
+  "emotion_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/v80_emotion_gap_20261016_run/final_split_emotions.jsonl",
+  "text_records": [
+    {
+      "key": "motion_group_v3/pAA0smGKCwM_shot15__part001/person_000_w0000",
+      "schema": "crowdchoreo-description-v7.3.1",
+      "batch": "motion_group_v3",
+      "segment_id": "pAA0smGKCwM_shot15__part001",
+      "skeleton_id": "person_000",
+      "member": "motion_group_v3/pAA0smGKCwM_shot15__part001/person_000.npz",
+      "window_index": 0,
+      "frame_range_exclusive": [
+        163,
+        351
+      ],
+      "fps": 30.0,
+      "duration_sec": 6.266666666666667,
+      "enforced": [],
+      "soft": [
+        {
+          "local_start_frame": 7,
+          "local_end_frame": 57,
+          "start_sec": 0.23,
+          "end_sec": 1.9,
+          "degrees": 379,
+          "direction_sign": -1
+        }
+      ],
+      "attempts": 1,
+      "source_sha256": "4c864cf017915c31940af68b1d13cc2285d56c0b28828a1b117f3e5ef06fc534",
+      "prompt_sha256": "e84c8c8478f629cac96738293d0ea7af02d2f10607a6e044dda77d140f9e17c8",
+      "requested_model": "gemini-2.5-flash",
+      "status": "ok",
+      "description": "A person steps side to side while sweeping both arms out to the sides and up. A person turns all the way around while raising both arms overhead. A person shifts weight from foot to foot while extending both arms out to the sides. A person steps side to side while bringing both arms in front of the chest.",
+      "segments": [
+        {
+          "start": "0:00.00",
+          "end": "0:01.03",
+          "action": "A person steps side to side while sweeping both arms out to the sides and up.",
+          "visual_evidence": "The person steps and sweeps arms.",
+          "segment_id": 1,
+          "clip_start_sec": 0.0,
+          "clip_end_sec": 1.0333333333333334,
+          "source_start_frame": 163,
+          "source_end_frame": 194,
+          "source_start_sec": 5.433333333333334,
+          "source_end_sec": 6.466666666666667,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:01.03",
+          "end": "0:02.53",
+          "action": "A person turns all the way around while raising both arms overhead.",
+          "visual_evidence": "The person spins and raises arms.",
+          "segment_id": 2,
+          "clip_start_sec": 1.0333333333333334,
+          "clip_end_sec": 2.533333333333333,
+          "source_start_frame": 194,
+          "source_end_frame": 239,
+          "source_start_sec": 6.466666666666667,
+          "source_end_sec": 7.966666666666667,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:02.53",
+          "end": "0:04.17",
+          "action": "A person shifts weight from foot to foot while extending both arms out to the sides.",
+          "visual_evidence": "The person shifts weight and extends arms.",
+          "segment_id": 3,
+          "clip_start_sec": 2.533333333333333,
+          "clip_end_sec": 4.166666666666667,
+          "source_start_frame": 239,
+          "source_end_frame": 288,
+          "source_start_sec": 7.966666666666667,
+          "source_end_sec": 9.6,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:04.17",
+          "end": "0:06.27",
+          "action": "A person steps side to side while bringing both arms in front of the chest.",
+          "visual_evidence": "The person steps and brings arms to chest.",
+          "segment_id": 4,
+          "clip_start_sec": 4.166666666666667,
+          "clip_end_sec": 6.266666666666667,
+          "source_start_frame": 288,
+          "source_end_frame": 351,
+          "source_start_sec": 9.6,
+          "source_end_sec": 11.7,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        }
+      ]
+    },
+    {
+      "key": "motion_group_v3/pAA0smGKCwM_shot15__part001/person_001_w0000",
+      "schema": "crowdchoreo-description-v7.3.1",
+      "batch": "motion_group_v3",
+      "segment_id": "pAA0smGKCwM_shot15__part001",
+      "skeleton_id": "person_001",
+      "member": "motion_group_v3/pAA0smGKCwM_shot15__part001/person_001.npz",
+      "window_index": 0,
+      "frame_range_exclusive": [
+        163,
+        351
+      ],
+      "fps": 30.0,
+      "duration_sec": 6.266666666666667,
+      "enforced": [
+        {
+          "local_start_frame": 1,
+          "local_end_frame": 60,
+          "start_sec": 0.03,
+          "end_sec": 2.0,
+          "degrees": 350,
+          "direction_sign": -1
+        }
+      ],
+      "soft": [],
+      "attempts": 2,
+      "source_sha256": "e1b5c5e91b6b2a873c923f36eb97aab47f50859d058183f47cd677fd8e67a40f",
+      "prompt_sha256": "c41f9cffa0162f1c6eaca34c00e7b3600c80beef0972b14e548918a37fe1920c",
+      "requested_model": "gemini-2.5-flash",
+      "status": "ok",
+      "description": "A person turns to the front while raising one arm to the chest and extending the other arm to the side. A person stands nearly still with both arms extended out to the sides. A person turns all the way around to the back while lowering both arms to the sides. A person steps back with one leg while extending both arms out to the sides.",
+      "segments": [
+        {
+          "start": "0:00.00",
+          "end": "0:00.93",
+          "action": "A person turns to the front while raising one arm to the chest and extending the other arm to the side.",
+          "visual_evidence": "The person rotates from facing right to facing forward, moving both arms.",
+          "segment_id": 1,
+          "clip_start_sec": 0.0,
+          "clip_end_sec": 0.9333333333333333,
+          "source_start_frame": 163,
+          "source_end_frame": 191,
+          "source_start_sec": 5.433333333333334,
+          "source_end_sec": 6.366666666666666,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:00.93",
+          "end": "0:01.43",
+          "action": "A person stands nearly still with both arms extended out to the sides.",
+          "visual_evidence": "The person maintains a forward-facing stance with arms held wide.",
+          "segment_id": 2,
+          "clip_start_sec": 0.9333333333333333,
+          "clip_end_sec": 1.4333333333333333,
+          "source_start_frame": 191,
+          "source_end_frame": 206,
+          "source_start_sec": 6.366666666666666,
+          "source_end_sec": 6.866666666666666,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:01.43",
+          "end": "0:02.80",
+          "action": "A person turns all the way around to the back while lowering both arms to the sides.",
+          "visual_evidence": "The person rotates counter-clockwise from front to back, bringing arms down.",
+          "segment_id": 3,
+          "clip_start_sec": 1.4333333333333333,
+          "clip_end_sec": 2.8,
+          "source_start_frame": 206,
+          "source_end_frame": 247,
+          "source_start_sec": 6.866666666666666,
+          "source_end_sec": 8.233333333333333,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:02.80",
+          "end": "0:06.27",
+          "action": "A person steps back with one leg while extending both arms out to the sides.",
+          "visual_evidence": "The person takes a step backward and spreads both arms wide.",
+          "segment_id": 4,
+          "clip_start_sec": 2.8,
+          "clip_end_sec": 6.266666666666667,
+          "source_start_frame": 247,
+          "source_end_frame": 351,
+          "source_start_sec": 8.233333333333333,
+          "source_end_sec": 11.7,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        }
+      ]
+    }
+  ],
+  "note": "Source frame intervals are half-open; visible text is clipped to the showcase window. No quantitative reconstruction error is inferred."
+}

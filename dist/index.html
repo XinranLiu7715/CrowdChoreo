@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="CrowdChoreo: a 3D skeleton dataset for group dance with temporal action descriptions, emotion labels, and formation annotations.">
+  <meta property="og:title" content="CrowdChoreo — A 3D Skeleton Dataset for Group Dance">
+  <meta property="og:description" content="Explore group dance skeleton sequences with temporal action descriptions, emotion labels, and formation annotations.">
+  <meta property="og:type" content="website">
+  <title>CrowdChoreo — A 3D Skeleton Dataset for Group Dance</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="academic.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <a href="#" class="brand" aria-label="CrowdChoreo home">CrowdChoreo</a>
+    <nav aria-label="Navigation"><a href="#pipeline">Pipeline</a><a href="#explore">Examples</a><a href="#annotations">Annotations</a></nav>
+  </header>
+  <main id="main">
+    <section class="intro" aria-labelledby="project-title">
+      <h1 id="project-title">CrowdChoreo</h1>
+      <p class="project-title">A 3D Skeleton Dataset for Group Dance</p>
+      <p class="project-subtitle">3D skeletons · Temporal action descriptions · Emotion · Formation</p>
+      <!-- Add confirmed authors, affiliations, and paper / dataset links here when available. -->
+      <div class="project-links"><a href="#pipeline">Pipeline</a><a href="#explore">Explore examples</a><a href="https://github.com/XinranLiu7715/CrowdChoreo">GitHub</a></div>
+      <div class="abstract" id="overview">
+        <p>CrowdChoreo is a 3D skeleton dataset for group dance, with temporal action descriptions, emotion labels, and formation annotations.</p>
+        <p class="release-note">The dataset release contains skeleton data only. RGB clips on this page are provided solely as visual references.</p>
+      </div>
+    </section>
+
+    <section id="pipeline" class="pipeline-section" aria-labelledby="pipeline-title">
+      <h2 id="pipeline-title" class="section-title">Pipeline</h2>
+      <!-- Replace this placeholder with the pipeline figure and its caption. -->
+      <div class="pipeline-placeholder" role="img" aria-label="Placeholder for the pipeline figure and description">
+        <span>Pipeline figure and description to be added.</span>
+      </div>
+    </section>
+
+    <section id="explore" class="explorer" aria-label="Synchronized examples">
+      <h2 class="section-title">Dataset Examples</h2>
+      <p class="section-description">Explore group motion and the accompanying annotations across five examples.</p>
+      <noscript><p class="noscript-note">Enable JavaScript to view the interactive skeletons and synchronized annotations.</p></noscript>
+      <div class="section-top"><span class="section-count" id="sampleCounter">01 / 05</span><div class="key-hint">Space: play / pause <i>·</i> ← → frame stepping</div></div>
+      <div class="example-heading"><div><h3 id="exampleTitle"></h3><p id="exampleSubtitle"></p></div><p id="exampleEnglish" hidden></p></div>
+      <div id="stage" class="stage">
+        <div class="media-pane rgb-pane"><div class="pane-header"><span><i>01</i> RGB · Visual reference only</span><button id="boxes" aria-pressed="false">Person IDs <span class="toggle-dot"></span></button></div><div class="media-area"><video id="rgb" muted playsinline preload="auto" aria-label="Original RGB dance video"></video><canvas id="boxCanvas" aria-hidden="true"></canvas><div class="media-stamp">SOURCE VIDEO</div></div></div>
+        <div class="media-pane skeleton-pane"><div class="pane-header"><span><i>02</i> 3D · Reconstructed skeleton</span><div class="view-tabs" role="group" aria-label="Skeleton view"><button data-view="front">Front</button><button class="selected" data-view="space">3D</button><button data-view="top">Top</button></div></div><div class="media-area"><canvas id="skeleton" tabindex="0" role="img" aria-label="Interactive stored 3D joints; drag to rotate"></canvas><div class="canvas-guide">Drag to rotate <span>↔</span></div><div class="media-stamp">STORED 3D JOINTS</div></div></div>
+      </div>
+      <div class="live-caption"><span id="livePerson" class="caption-id">P01</span><span class="caption-label">CURRENT ACTION</span><p id="currentCaption" aria-live="off"></p></div>
+      <div class="transport"><div class="playback-buttons"><button id="play" class="play-button" aria-label="Play">▶</button><button id="prevFrame" class="frame-button" aria-label="Previous frame">Ⅰ‹</button><button id="nextFrame" class="frame-button" aria-label="Next frame">›Ⅰ</button></div><span id="clock" class="clock">00:00.00 / 00:06.00</span><input id="scrubber" type="range" min="0" max="179" value="0" step="1" aria-label="Timeline"><span id="frameNumber" class="frame-count">F 000</span><select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select><button id="mute" class="frame-button" aria-label="Enable audio" title="Enable audio">♪̸</button><button id="loop" class="loop-button active" aria-label="Loop" aria-pressed="true">↻</button></div>
+      <div class="frame-footnote"><span id="sourceFrame"></span><span>Source-frame synchronization · Independent orthographic skeleton view</span></div>
+      <div id="gallery" class="gallery" role="group" aria-label="Select example"></div>
+    </section>
+
+    <section id="annotations" class="annotations-section">
+      <h2 class="section-title">Annotations</h2>
+      <div class="annotation-layout">
+        <div class="annotation-view"><div class="pane-header">Skeleton · synchronized view</div><canvas id="annotationSkeleton" aria-label="Synchronized skeleton alongside action descriptions"></canvas><div class="annotation-controls"><button id="annotationPlay">Play / pause</button><input id="annotationSeek" type="range" min="0" max="179" value="0" aria-label="Annotation timeline"><span id="annotationTime">0.00 s</span></div></div>
+        <div class="annotation-content"><div class="compact-labels"><div><strong>Emotion</strong> <span id="emotionValue"></span><small id="emotionConfidence"></small><details><summary>Evidence</summary><p id="emotionEvidence"></p></details></div><div><strong>Formation</strong> <span id="formationValue"></span><span id="formationEnglish" hidden></span></div></div>
+        <div class="text-heading"><strong>Action descriptions</strong><span>Click a sentence to seek</span></div><div id="personTabs" class="person-tabs"></div><div id="timeline" class="timeline"></div>
+        <canvas id="formationMap" width="1" height="1" style="position:absolute;width:1px;height:1px;opacity:0" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="about"><details class="provenance"><summary>Data provenance and visualization notes <span aria-hidden="true">+</span></summary><div class="provenance-body"><p id="provenanceText"></p><p>These examples support qualitative inspection of RGB–motion correspondence. Skeletons use independent orthographic projections rather than calibrated RGB overlays. Emotion labels retain their model confidence; formations are derived from ground-plane geometry.</p><a id="downloadAnnotations" href="#" download>Download source annotations (JSON) ↗</a></div></details></section>
+  </main>
+  <footer><a class="brand" href="#">CrowdChoreo</a><span>A 3D Skeleton Dataset for Group Dance</span><a class="back-to-top" href="#">Back to top ↑</a></footer>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

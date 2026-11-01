@@ -2,7 +2,7 @@
 
 A static academic project page for **CrowdChoreo: A Large-Scale Text-Annotated Dataset for Group Dance**. The page introduces the project and its pipeline, followed by five interactive dataset examples with synchronized text annotations, a model section, and generation results.
 
-The arXiv and Data resources are marked **Coming soon** until their URLs are available. GitHub links to this repository. Pipeline, model architecture, and generation results have reserved placeholders.
+The arXiv and Data resources are marked **Coming soon** until their URLs are available. The GitHub resource links to [MMDanceDataset](https://github.com/applesleam/MMDanceDataset). Pipeline, model architecture, and generation results have reserved placeholders.
 
 The dataset release contains skeleton data only. RGB clips on this page serve as visual references. Skeletons use the stored joints with monochrome rendering. Emotion, formation, and temporal action descriptions accompany each example.
 

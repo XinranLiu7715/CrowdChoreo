@@ -76,16 +76,16 @@ footer .brand{font-size:16px}
 }
 
 /* Research project hierarchy and resource links. */
-.intro{padding-top:74px;padding-bottom:32px}
-.intro h1{font-size:68px;line-height:1.08;font-weight:750;letter-spacing:-2.8px;color:#222}
-.intro .project-title{font-size:30px;line-height:1.4;font-weight:400;letter-spacing:-.45px;max-width:850px;margin:20px auto 0;color:#383838}
-.project-links{align-items:stretch;gap:12px;margin:30px 0 39px}
-.project-links .resource-link{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:126px;min-height:48px;padding:9px 20px;border:1px solid #333;border-radius:26px;background:#333;color:#fff;font-size:14px;line-height:1.2;font-weight:500;text-align:left}
+.intro{padding-top:110px;padding-bottom:32px}
+.intro h1{font-size:48px;line-height:1.15;font-weight:650;letter-spacing:-1.2px;color:#222}
+.intro .project-title{font-size:26px;line-height:1.45;font-weight:400;letter-spacing:-.25px;max-width:850px;margin:17px auto 0;color:#383838}
+.project-links{align-items:stretch;gap:10px;margin:27px 0 36px}
+.project-links .resource-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:0;min-height:40px;padding:6px 12px;border:1px solid #333;border-radius:21px;background:#333;color:#fff;font-size:16px;line-height:1.2;font-weight:500;text-align:left}
 .project-links .resource-link:hover{background:#4b4b4b}
 .project-links .resource-pending,.project-links .resource-pending:hover{background:#f6f6f6;color:#666;border-color:#dedede;opacity:1}
-.resource-link svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.resource-link svg{width:16px;height:16px;flex:0 0 16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .resource-link .github-icon{fill:currentColor;stroke:none}
-.resource-link small{display:block;font-size:9px;line-height:1.3;font-weight:400;margin-top:3px;letter-spacing:.1px}
+.resource-link small{display:block;font-size:10px;line-height:1.25;font-weight:400;margin-top:2px;letter-spacing:0}
 .abstract{max-width:850px;text-align:left}
 .abstract p{font-size:16px;line-height:1.9;color:#444}
 .abstract strong{font-weight:600;color:#333}
@@ -98,14 +98,14 @@ footer .brand{font-size:16px}
 .research-section .section-description{max-width:740px;margin:0 auto 24px}
 .research-placeholder{display:flex;align-items:center;justify-content:center;min-height:220px;padding:30px;border:1px dashed #ccc;background:#fafafa;font-size:14px;line-height:1.6;color:#777;text-align:center}
 @media(max-width:760px){
-  .intro{padding-top:46px;padding-bottom:22px}
-  .intro h1{font-size:48px;letter-spacing:-1.8px}
-  .intro .project-title{font-size:23px;line-height:1.45;margin-top:16px;letter-spacing:-.3px}
+  .intro{padding-top:72px;padding-bottom:22px}
+  .intro h1{font-size:36px;letter-spacing:-.8px}
+  .intro .project-title{font-size:21px;line-height:1.45;margin-top:14px;letter-spacing:-.2px}
   .title-break{display:none}
-  .project-links{flex-wrap:nowrap;gap:8px;margin:25px 0 30px}
-  .project-links .resource-link{min-width:0;min-height:46px;gap:7px;padding:9px 13px;font-size:13px}
+  .project-links{flex-wrap:nowrap;gap:8px;margin:24px 0 30px}
+  .project-links .resource-link{min-width:0;min-height:40px;gap:6px;padding:6px 11px;font-size:15px}
   .resource-link svg{width:16px;height:16px;flex-basis:16px}
-  .resource-link small{font-size:8px}
+  .resource-link small{font-size:9px}
   .abstract p{font-size:14px;line-height:1.85}
   .abstract .release-note{font-size:11px;margin-top:15px}
   .explorer{padding-bottom:38px}
@@ -115,8 +115,8 @@ footer .brand{font-size:16px}
   .research-placeholder{min-height:170px;font-size:12px}
 }
 @media(max-width:380px){
-  .intro h1{font-size:42px;letter-spacing:-1.6px}
-  .intro .project-title{font-size:21px}
+  .intro h1{font-size:34px;letter-spacing:-.7px}
+  .intro .project-title{font-size:20px}
   .project-links{gap:6px}
-  .project-links .resource-link{gap:6px;padding:8px 10px}
+  .project-links .resource-link{gap:6px;padding:6px 9px}
 }

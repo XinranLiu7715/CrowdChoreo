@@ -1,0 +1,230 @@
+{
+  "batch": "motion_group",
+  "segment_id": "rRt8HYtEA98_shot0",
+  "frame_range_exclusive": [
+    0,
+    180
+  ],
+  "fps": 30.0,
+  "source_rgb": "GroupData/TextD2MMD/outputs/crowdchoreo_description/runs/motion_group/rRt8HYtEA98_shot0/media/rgb_original_window.mp4",
+  "skeleton_source": "dataset/CrowdChoreo/final_theta030/rotfix/motion_group/rRt8HYtEA98_shot0",
+  "text_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/v82_fastspin_fix_20261016_run/selection/descriptions_person.jsonl",
+  "text_records": [
+    {
+      "key": "motion_group/rRt8HYtEA98_shot0/person_000_w0000",
+      "schema": "crowdchoreo-description-v7.3.1",
+      "batch": "motion_group",
+      "segment_id": "rRt8HYtEA98_shot0",
+      "skeleton_id": "person_000",
+      "member": "motion_group/rRt8HYtEA98_shot0/person_000.npz",
+      "window_index": 0,
+      "frame_range_exclusive": [
+        0,
+        180
+      ],
+      "fps": 30.0,
+      "duration_sec": 6.0,
+      "enforced": [],
+      "soft": [],
+      "attempts": 1,
+      "source_sha256": "67e5aa88d07df361498643ddcdd6b3f8a8aeb29d3fbb674bff9481a514d09f9f",
+      "prompt_sha256": "2647f018224d56471caa2fb382029bf26bc931e4e057fd96b07925fc6814947d",
+      "requested_model": "gemini-2.5-flash",
+      "status": "ok",
+      "description": "A person stands with bent knees, swaying the upper body from side to side while moving both arms and turning halfway around. A person lifts one leg and then settles into a wide stance, extending both arms forward and upward. A person stands in a wide stance, pointing one arm forward and down while the other arm is bent. A person kicks one leg to the side while swinging both arms up and down.",
+      "segments": [
+        {
+          "start": "0:00.00",
+          "end": "0:01.03",
+          "action": "A person stands with bent knees, swaying the upper body from side to side while moving both arms and turning halfway around.",
+          "visual_evidence": "The person's torso and arms sway, while the legs remain bent and wide.",
+          "segment_id": 1,
+          "clip_start_sec": 0.0,
+          "clip_end_sec": 1.0333333333333334,
+          "source_start_frame": 0,
+          "source_end_frame": 31,
+          "source_start_sec": 0.0,
+          "source_end_sec": 1.0333333333333334,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:01.03",
+          "end": "0:02.20",
+          "action": "A person lifts one leg and then settles into a wide stance, extending both arms forward and upward.",
+          "visual_evidence": "The right leg lifts and places down, then both arms extend forward and up.",
+          "segment_id": 2,
+          "clip_start_sec": 1.0333333333333334,
+          "clip_end_sec": 2.2,
+          "source_start_frame": 31,
+          "source_end_frame": 66,
+          "source_start_sec": 1.0333333333333334,
+          "source_end_sec": 2.2,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:02.20",
+          "end": "0:03.43",
+          "action": "A person stands in a wide stance, pointing one arm forward and down while the other arm is bent.",
+          "visual_evidence": "The legs are wide and bent, the right arm points down, and the left arm is bent.",
+          "segment_id": 3,
+          "clip_start_sec": 2.2,
+          "clip_end_sec": 3.433333333333333,
+          "source_start_frame": 66,
+          "source_end_frame": 103,
+          "source_start_sec": 2.2,
+          "source_end_sec": 3.433333333333333,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:03.43",
+          "end": "0:06.00",
+          "action": "A person kicks one leg to the side while swinging both arms up and down.",
+          "visual_evidence": "The left leg lifts and extends to the side, and both arms actively swing.",
+          "segment_id": 4,
+          "clip_start_sec": 3.433333333333333,
+          "clip_end_sec": 6.0,
+          "source_start_frame": 103,
+          "source_end_frame": 180,
+          "source_start_sec": 3.433333333333333,
+          "source_end_sec": 6.0,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        }
+      ],
+      "turn_revision": {
+        "version": "crowdchoreo-turn-fix-v7.9",
+        "model": "gemini-2.5-flash",
+        "response_sha256": "e1bf8cab33c3ac5dc55a2cbedec81417cd4dc2682a6135beabd8a9785525049d",
+        "attempts": 1,
+        "edits": [
+          {
+            "segment_index": 0,
+            "original_action": "A person stands with bent knees, swaying the upper body from side to side while moving both arms.",
+            "revised_action": "A person stands with bent knees, swaying the upper body from side to side while moving both arms and turning halfway around.",
+            "turns": [
+              {
+                "start_sec": 0.53,
+                "end_sec": 1.37,
+                "degrees": 159,
+                "glitch_frames": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "motion_group/rRt8HYtEA98_shot0/person_001_w0000",
+      "schema": "crowdchoreo-description-v7.3.1",
+      "batch": "motion_group",
+      "segment_id": "rRt8HYtEA98_shot0",
+      "skeleton_id": "person_001",
+      "member": "motion_group/rRt8HYtEA98_shot0/person_001.npz",
+      "window_index": 0,
+      "frame_range_exclusive": [
+        0,
+        180
+      ],
+      "fps": 30.0,
+      "duration_sec": 6.0,
+      "enforced": [],
+      "soft": [],
+      "attempts": 1,
+      "source_sha256": "7b3848dc9798a58cb67c9b2dbb28d219556b9890c19c7acbd3068ecac031afd3",
+      "prompt_sha256": "0080f68c397024e330089d30858eef223f0d8bcd6842a8c256c0dc1776c4a13c",
+      "requested_model": "gemini-2.5-flash",
+      "status": "ok",
+      "description": "A person stands with bent knees, shifting weight while bringing both hands together in front of the chest. A person widens the stance with bent knees while extending both arms out to the sides and upward. A person stands with bent knees, bringing both arms down and across the body in front of the waist. A person alternately lifts each knee while swinging both arms up and down.",
+      "segments": [
+        {
+          "start": "0:00.00",
+          "end": "0:01.00",
+          "action": "A person stands with bent knees, shifting weight while bringing both hands together in front of the chest.",
+          "visual_evidence": "The person's knees are bent, and hands clap together.",
+          "segment_id": 1,
+          "clip_start_sec": 0.0,
+          "clip_end_sec": 1.0,
+          "source_start_frame": 0,
+          "source_end_frame": 30,
+          "source_start_sec": 0.0,
+          "source_end_sec": 1.0,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:01.00",
+          "end": "0:02.20",
+          "action": "A person widens the stance with bent knees while extending both arms out to the sides and upward.",
+          "visual_evidence": "The person's legs are wide and bent, and both arms are raised to the sides.",
+          "segment_id": 2,
+          "clip_start_sec": 1.0,
+          "clip_end_sec": 2.2,
+          "source_start_frame": 30,
+          "source_end_frame": 66,
+          "source_start_sec": 1.0,
+          "source_end_sec": 2.2,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:02.20",
+          "end": "0:03.50",
+          "action": "A person stands with bent knees, bringing both arms down and across the body in front of the waist.",
+          "visual_evidence": "The person's knees are bent, and arms move down and across the body.",
+          "segment_id": 3,
+          "clip_start_sec": 2.2,
+          "clip_end_sec": 3.5,
+          "source_start_frame": 66,
+          "source_end_frame": 105,
+          "source_start_sec": 2.2,
+          "source_end_sec": 3.5,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        },
+        {
+          "start": "0:03.50",
+          "end": "0:06.00",
+          "action": "A person alternately lifts each knee while swinging both arms up and down.",
+          "visual_evidence": "The person lifts one knee, then the other, while moving the arms.",
+          "segment_id": 4,
+          "clip_start_sec": 3.5,
+          "clip_end_sec": 6.0,
+          "source_start_frame": 105,
+          "source_end_frame": 180,
+          "source_start_sec": 3.5,
+          "source_end_sec": 6.0,
+          "boundary_status": "approximate visual estimate, quantized to source frames"
+        }
+      ]
+    }
+  ],
+  "formation_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/runs_full/motion_group/rRt8HYtEA98_shot0/formation_auto.json",
+  "formation_record": {
+    "status": "auto_geometry",
+    "formation": "pairs",
+    "canonical_phrase": "Pairs.",
+    "evidence": {
+      "n_persons": 2,
+      "linearity": 1.0,
+      "extent_xz": [
+        0.9505,
+        0.1475
+      ],
+      "radius_cv": 0.0,
+      "angular_spread_deg": 180.0,
+      "order_changes": 0,
+      "method": "median floor XZ over half-second bins of the final skeletons",
+      "rule": "two retained targets"
+    },
+    "spatial_sha256": "bd15a727fbf67aa17f3a13251b7a36b7a239a57614b66c1cedf701181d283d77",
+    "window_frames": [
+      0,
+      180
+    ]
+  },
+  "emotion_source": "GroupData/TextD2MMD/outputs/crowdchoreo_description/runs/motion_group/rRt8HYtEA98_shot0/labels.json",
+  "emotion_schema": "crowdchoreo-description-emotion-v6.2",
+  "emotion_record": {
+    "label": "aggressive",
+    "confidence": "medium",
+    "evidence": "The dancers perform sharp, forceful arm and leg extensions, suggesting a combative or attacking quality."
+  },
+  "release_status": "generated_not_human_reviewed",
+  "note": "Website example exported from original stored joints; no motion smoothing or repositioning applied. Emotion retains its existing source vocabulary and confidence."
+}

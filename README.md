@@ -38,4 +38,6 @@ Place new figures in `dist/assets/` and reference them with relative URLs, such 
 
 The third example displays **triangle** through a website-only override in `app.js`; the original dataset annotations remain unchanged. The first example remains **A duet in motion**.
 
+Example 02 is **Sharp, coordinated duet**, using the original six-second motion window from `rRt8HYtEA98_shot0`. Its action text comes from the v8.2 selection, formation from the existing geometry annotation, and emotion from the existing v6.2 group label. The website retains that label's vocabulary and confidence and records the individual sources in its annotation JSON.
+
 Keyboard controls: **Space** plays or pauses, **← / →** steps through frames, and **1–5** selects an example.

@@ -70,7 +70,7 @@
     $('formationValue').textContent = formations[sample.formation] || sample.formation;
     $('formationEnglish').textContent = sample.formation;
     $('downloadAnnotations').href = `assets/${sample.id}/annotations.json`;
-    $('provenanceText').textContent = `${sample.batch} / ${sample.source} · ${sample.split} split. Source frames [${sample.frames[0]}, ${sample.frames[1]}), ${sample.fps} fps. Skeletons: final_theta030 / rotfix. Text: v8.2 selection. Formation: 2026-10-16 timeline. Emotion: final split annotations.`;
+    $('provenanceText').textContent = sample.provenanceText || `${sample.batch} / ${sample.source} · ${sample.split} split. Source frames [${sample.frames[0]}, ${sample.frames[1]}), ${sample.fps} fps. Skeletons: final_theta030 / rotfix. Text: v8.2 selection. Formation: 2026-10-16 timeline. Emotion: final split annotations.`;
     buildPersonTabs(); buildTimeline(); update();
     if (autoplay || previousPlaying) safePlay();
   }

@@ -2,6 +2,8 @@
 
 A static academic project page for **CrowdChoreo: A Large-Scale Text-Annotated Dataset for Group Dance**. The page introduces the project and its pipeline, followed by five interactive dataset examples with synchronized text annotations, a model section, and generation results.
 
+The centered paper header lists **Anonymous Authors**. The full title stays on one line on desktop and wraps naturally on smaller screens. The layout takes inspiration from [CAMDM](https://aiganimation.github.io/CAMDM/) and the [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template), with a separate Abstract section, compact resource links, and locally hosted Noto Sans typography. The font license is included in `dist/assets/NOTO-SANS-OFL.txt`.
+
 The arXiv and Data resources are marked **Coming soon** until their URLs are available. The GitHub resource links to [MMDanceDataset](https://github.com/applesleam/MMDanceDataset). Pipeline, model architecture, and generation results have reserved placeholders.
 
 The dataset release contains skeleton data only. RGB clips on this page serve as visual references. Skeletons use the stored joints with monochrome rendering. Emotion, formation, and temporal action descriptions accompany each example.

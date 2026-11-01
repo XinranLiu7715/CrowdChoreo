@@ -1,6 +1,8 @@
 # CrowdChoreo project page
 
-A static academic project page for **CrowdChoreo: A 3D Skeleton Dataset for Group Dance**. The page introduces the project and its pipeline, followed by five interactive examples and synchronized motion annotations.
+A static academic project page for **CrowdChoreo: A Large-Scale Text-Annotated Dataset for Group Dance**. The page introduces the project and its pipeline, followed by five interactive dataset examples with synchronized text annotations, a model section, and generation results.
+
+The arXiv and Data resources are marked **Coming soon** until their URLs are available. GitHub links to this repository. Pipeline, model architecture, and generation results have reserved placeholders.
 
 The dataset release contains skeleton data only. RGB clips on this page serve as visual references. Skeletons use the stored joints with monochrome rendering. Emotion, formation, and temporal action descriptions accompany each example.
 
@@ -25,7 +27,7 @@ Open `http://localhost:8876/` on the same computer. For a different port, use `p
 
 ## Edit the page
 
-- `dist/index.html`: project introduction, pipeline section, and page structure. The pipeline has a reserved placeholder; replace it with the verified diagram and description when available.
+- `dist/index.html`: the four-sentence project introduction, resource links, pipeline, nested dataset examples and text annotations, model, and generation results. Replace the placeholders with verified diagrams, results, and URLs when available.
 - `dist/academic.css` and `dist/style.css`: appearance and responsive layout.
 - `dist/app.js`: playback, skeleton rendering, and annotation controls.
 - `dist/data.js` and `dist/assets/`: the five examples, skeleton trajectories, reference clips, and annotations.

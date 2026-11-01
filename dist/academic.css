@@ -74,3 +74,49 @@ footer .brand{font-size:16px}
   .header .brand{justify-content:center;width:100%}
   .header nav{justify-content:center;gap:22px}
 }
+
+/* Research project hierarchy and resource links. */
+.intro{padding-top:74px;padding-bottom:32px}
+.intro h1{font-size:68px;line-height:1.08;font-weight:750;letter-spacing:-2.8px;color:#222}
+.intro .project-title{font-size:30px;line-height:1.4;font-weight:400;letter-spacing:-.45px;max-width:850px;margin:20px auto 0;color:#383838}
+.project-links{align-items:stretch;gap:12px;margin:30px 0 39px}
+.project-links .resource-link{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:126px;min-height:48px;padding:9px 20px;border:1px solid #333;border-radius:26px;background:#333;color:#fff;font-size:14px;line-height:1.2;font-weight:500;text-align:left}
+.project-links .resource-link:hover{background:#4b4b4b}
+.project-links .resource-pending,.project-links .resource-pending:hover{background:#f6f6f6;color:#666;border-color:#dedede;opacity:1}
+.resource-link svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.resource-link .github-icon{fill:currentColor;stroke:none}
+.resource-link small{display:block;font-size:9px;line-height:1.3;font-weight:400;margin-top:3px;letter-spacing:.1px}
+.abstract{max-width:850px;text-align:left}
+.abstract p{font-size:16px;line-height:1.9;color:#444}
+.abstract strong{font-weight:600;color:#333}
+.abstract .release-note{margin-top:18px;color:#777;font-size:12px;line-height:1.75}
+.explorer{padding-bottom:54px}
+.explorer .annotations-section{display:block;padding:32px 0 0;margin-top:36px;border-top:1px solid #e3e3e3;background:#fff}
+.subsection-title{font-size:21px;font-weight:600;line-height:1.4;margin:0 0 22px;text-align:left;color:#333}
+.explorer .about{max-width:none;margin:0;padding:30px 0 0}
+.research-section{padding:0 5.2% 54px}
+.research-section .section-description{max-width:740px;margin:0 auto 24px}
+.research-placeholder{display:flex;align-items:center;justify-content:center;min-height:220px;padding:30px;border:1px dashed #ccc;background:#fafafa;font-size:14px;line-height:1.6;color:#777;text-align:center}
+@media(max-width:760px){
+  .intro{padding-top:46px;padding-bottom:22px}
+  .intro h1{font-size:48px;letter-spacing:-1.8px}
+  .intro .project-title{font-size:23px;line-height:1.45;margin-top:16px;letter-spacing:-.3px}
+  .title-break{display:none}
+  .project-links{flex-wrap:nowrap;gap:8px;margin:25px 0 30px}
+  .project-links .resource-link{min-width:0;min-height:46px;gap:7px;padding:9px 13px;font-size:13px}
+  .resource-link svg{width:16px;height:16px;flex-basis:16px}
+  .resource-link small{font-size:8px}
+  .abstract p{font-size:14px;line-height:1.85}
+  .abstract .release-note{font-size:11px;margin-top:15px}
+  .explorer{padding-bottom:38px}
+  .explorer .annotations-section{padding-top:25px;margin-top:27px}
+  .subsection-title{font-size:19px;margin-bottom:18px}
+  .research-section{padding-bottom:38px}
+  .research-placeholder{min-height:170px;font-size:12px}
+}
+@media(max-width:380px){
+  .intro h1{font-size:42px;letter-spacing:-1.6px}
+  .intro .project-title{font-size:21px}
+  .project-links{gap:6px}
+  .project-links .resource-link{gap:6px;padding:8px 10px}
+}

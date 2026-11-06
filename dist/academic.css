@@ -194,3 +194,19 @@ footer > span:first-of-type { color: #999; font: inherit; }
   .project-links { gap: 6px; }
   .project-links .resource-link { padding: 6px 8px; font-size: 14px; }
 }
+
+/* Paper figures use the original artwork, with full-resolution links. */
+.project-teaser { max-width: 1240px; margin: 0 auto; padding: 0 56px 48px; }
+.project-teaser a, .figure-image-link { display: block; }
+.project-teaser img, .framework-figure img { display: block; width: 100%; height: auto; }
+.pipeline-section, .model-section { max-width: 1320px; }
+.framework-figure { margin: 0; }
+.figure-image-link { cursor: zoom-in; }
+.framework-figure figcaption { max-width: 1008px; margin: 22px auto 0; color: #555; font-size: 14px; line-height: 1.85; text-align: left; }
+.framework-figure figcaption strong { font-weight: 600; color: #363636; }
+.framework-figure figcaption a { margin-left: 5px; color: #3273dc; white-space: nowrap; text-decoration: underline; text-underline-offset: 3px; }
+.project-teaser a:focus-visible, .figure-image-link:focus-visible { outline: 2px solid #3273dc; outline-offset: 5px; }
+@media (max-width: 760px) {
+  .project-teaser { padding: 0 20px 32px; }
+  .framework-figure figcaption { margin-top: 16px; font-size: 13px; line-height: 1.75; }
+}

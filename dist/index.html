@@ -35,6 +35,12 @@
       </div>
     </section>
 
+    <figure class="project-teaser">
+      <a href="assets/figures/multimodal-dance-dataset.png" target="_blank" rel="noopener" aria-label="View the CrowdChoreo overview figure at full resolution">
+        <img src="assets/figures/multimodal-dance-dataset.png" width="2076" height="812" fetchpriority="high" alt="CrowdChoreo overview: synchronized music, multi-person motion, dancer-specific timed text, trajectories, emotion, and formation annotations.">
+      </a>
+    </figure>
+
     <section id="overview" class="abstract-section" aria-labelledby="abstract-title">
       <div class="abstract">
         <h2 id="abstract-title" class="section-title">Abstract</h2>
@@ -43,11 +49,13 @@
     </section>
 
     <section id="pipeline" class="pipeline-section" aria-labelledby="pipeline-title">
-      <h2 id="pipeline-title" class="section-title">Pipeline</h2>
-      <!-- Replace this placeholder with the pipeline figure and its caption. -->
-      <div class="pipeline-placeholder" role="img" aria-label="Placeholder for the pipeline figure and description">
-        <span>Pipeline figure and description to be added.</span>
-      </div>
+      <h2 id="pipeline-title" class="section-title">Data Extraction Pipeline</h2>
+      <figure class="framework-figure">
+        <a class="figure-image-link" href="assets/figures/pipeline.svg" target="_blank" rel="noopener" aria-label="View the data extraction pipeline at full resolution">
+          <img src="assets/figures/pipeline.svg" width="1325" height="414" loading="lazy" alt="Four-stage CrowdChoreo pipeline: video collection, motion reconstruction in shared space, motion refinement and quality control, and multimodal annotation.">
+        </a>
+        <figcaption><strong>From in-the-wild videos to annotated group motion.</strong> Our automatic pipeline collects and filters dance videos, reconstructs dancers in a shared 3D space, and refines motion through structural and penetration checks. It then produces dancer-time captions, formation and trajectory annotations, and group-level emotion labels aligned with motion and music. <a href="assets/figures/pipeline.pdf" target="_blank" rel="noopener">View PDF</a></figcaption>
+      </figure>
     </section>
 
     <section id="explore" class="explorer" aria-label="Synchronized examples">
@@ -79,11 +87,15 @@
       <div class="about"><details class="provenance"><summary>Data provenance and visualization notes <span aria-hidden="true">+</span></summary><div class="provenance-body"><p id="provenanceText"></p><p>These examples support qualitative inspection of RGB–motion correspondence. Skeletons use independent orthographic projections rather than calibrated RGB overlays. Emotion labels retain their model confidence; formations are derived from ground-plane geometry.</p><a id="downloadAnnotations" href="#" download>Download source annotations (JSON) ↗</a></div></details></div>
     </section>
 
-    <section id="model" class="research-section" aria-labelledby="model-title">
-      <h2 id="model-title" class="section-title">Model</h2>
-      <p class="section-description">A masked modeling framework for group dance generation, jointly conditioned on music and text.</p>
-      <!-- Replace this placeholder with the model architecture figure and explanation. -->
-      <div class="research-placeholder"><span>Model architecture and details coming soon.</span></div>
+    <section id="model" class="research-section model-section" aria-labelledby="model-title">
+      <h2 id="model-title" class="section-title">Model Framework</h2>
+      <p class="section-description">Music-driven group dance generation with dancer-specific, time-aligned text control.</p>
+      <figure class="framework-figure">
+        <a class="figure-image-link" href="assets/figures/model-framework.svg" target="_blank" rel="noopener" aria-label="View the model framework at full resolution">
+          <img src="assets/figures/model-framework.svg" width="1640" height="534" loading="lazy" alt="Model framework with an any-number music-conditioned group dance generator, dancer-time masked text control, residual text injection, rotation statistics prediction, and guided DDIM sampling.">
+        </a>
+        <figcaption><strong>Controllable choreography across group sizes.</strong> The music-conditioned diffusion generator shares parameters across dancers and models their interactions with inter-dancer attention and dancer-aware positional encoding. Timed captions guide a trainable residual text controller through dancer-frame alignment and zero-initialized bridges; a rotation-statistics predictor and footwork adapter support motion decoding and lower-body refinement. <a href="assets/figures/model-framework.pdf" target="_blank" rel="noopener">View PDF</a></figcaption>
+      </figure>
     </section>
 
     <section id="generation-results" class="research-section" aria-labelledby="generation-title">
